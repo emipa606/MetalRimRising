@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Metal Rim Rising (Continued)</name>
+  <packageId>Mlie.MetalRimRising</packageId>
+  <author>crazedmonkey231</author>
+  <url>https://github.com/emipa606/MetalRimRising</url>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of crazedmonkey231s mod https://steamcommunity.com/sharedfiles/filedetails/?id=2802023013
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/MetalRimRising][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
+
+[img]https://i.imgur.com/p3CnpiB.png[/img]
+Metal Rim Rising is a mod created by the [b]aRatoCat[/b] team to add a bit more "memes" to Rimworld. After all... Memes are the DNA of the soul. 
+
+Focus primarily on armor penetration, most weapons added to this mod have high armor penetration value but often low damage or low speed. Bionics and equipment are more specialized, allowing for more interesting abilities that aren't simply a number increase. Although some are simply there to make your pawn feels f-cking invincible. 
+
+[b]Note; [/b]Yes. We are aware of stacking the tough trait with all 5 bionics creates an invincible pawn. If you wish to edit the values yourself, it is a very simple XML file edit. But if you're seriously complaining about a Metal Gear Rising; Revengeance mod being "OP," then maybe you shouldn't stack all 5 extremely powerful bionics on top of an already powerful vanilla base trait. 
+
+[h1]KNOWN ISSUES;[/h1]
+
+D.E.S Exo suit not detonating in some unusual cases
+Vanilla Shield Belt sometime detonating in unusual cases. 
+
+[img]https://i.imgur.com/QeAYIcB.png[/img]
+
+[img]https://i.imgur.com/CCGu53f.png[/img]
+
+[img]https://i.imgur.com/IOmrlWa.png[/img]
+
+[img]https://i.imgur.com/PBJPWix.png[/img]
+
+[img]https://i.imgur.com/94z2nSu.png[/img]
+
+[img]https://i.imgur.com/gibi9xE.png[/img]
+
+[img]https://i.imgur.com/ulfcASI.png[/img]
+
+Sundowner's Bloodlust(s)
+Mistral's [UNKNOWN]
+Blade Wolf's [UNKNOWN]
+Grunt's HF Hatchet
+
+[img]https://i.imgur.com/AJkLOIN.png[/img]
+Everything [i]should[/i] work for now. Contact us with your Hugslib logs and screenshots!
+
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2804403305]Callout Add-On by Holgast![/url][/b]
+
+Not compatible with "Combat Extended".
+
+[img]https://i.imgur.com/tvQTUku.png[/img]
+
+[url=https://discord.gg/tQHKKafM6C]Our Discord![/url]
+
+[url=https://ko-fi.com/teamratocat][img]https://i.imgur.com/7nVmfw1.png[/img][/url]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+</ModMetaData>
