@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: nanomachine core -->
+  <NanomachineCore.label>nanomachine core</NanomachineCore.label>
+  <!-- EN: Replacing the user's heart. This core contains millions of nanobots one-millionth of a millimeter in size. After syncing with the user's nervous system, these nanobots can be manipulated to repair damaged tissues, hardening in response to trauma, and more.\nAt a cost.\nThe first prototype was funded by and made for Admiral Armstrong of the Imperial Navy. -->
+  <NanomachineCore.description>Replacing the user's heart. This core contains millions of nanobots one-millionth of a millimeter in size. After syncing with the user's nervous system, these nanobots can be manipulated to repair damaged tissues, hardening in response to trauma, and more.
+At a cost.
+The first prototype was funded by and made for Admiral Armstrong of the Imperial Navy.</NanomachineCore.description>
+  <!-- EN: Personal Evasive Robotic Add-On Arm -->
+  <PERA_Arm.label>Personal Evasive Robotic Add-On Arm</PERA_Arm.label>
+  <!-- EN: Personal Evasive Robotic Add-Ons. Each bionic part contains within it a micro gravitational core which are attracted to each other, allowing the user to...in the most literal sense "bisect themselves" in order to avoid injuries.\nP.E.R.A. bionics come in both arm and leg add-on's -->
+  <PERA_Arm.description>Personal Evasive Robotic Add-Ons. Each bionic part contains within it a micro gravitational core which are attracted to each other, allowing the user to...in the most literal sense "bisect themselves" in order to avoid injuries.
+P.E.R.A. bionics come in both arm and leg add-on's</PERA_Arm.description>
+  <!-- EN: Personal Evasive Robotic Add-On Leg -->
+  <PERA_Leg.label>Personal Evasive Robotic Add-On Leg</PERA_Leg.label>
+  <!-- EN: Personal Evasive Robotic Add-Ons. Each bionic part contains within it a micro gravitational core which are attracted to each other, allowing the user to...in the most literal sense "bisect themselves" in order to avoid injuries.\nP.E.R.A. bionics come in both arm and leg add-on's -->
+  <PERA_Leg.description>Personal Evasive Robotic Add-Ons. Each bionic part contains within it a micro gravitational core which are attracted to each other, allowing the user to...in the most literal sense "bisect themselves" in order to avoid injuries.
+P.E.R.A. bionics come in both arm and leg add-on's</PERA_Leg.description>
+</LanguageData>

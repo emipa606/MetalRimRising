@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install nanomachine core -->
+  <InstallNanomachineCore.label>install nanomachine core</InstallNanomachineCore.label>
+  <!-- EN: Install a nanomachine core. -->
+  <InstallNanomachineCore.description>Install a nanomachine core.</InstallNanomachineCore.description>
+  <!-- EN: Installing nanomachine core. -->
+  <InstallNanomachineCore.jobString>Installing nanomachine core.</InstallNanomachineCore.jobString>
+  <!-- EN: install Personal Evasive Robotic Add-On Arm -->
+  <InstallPERA_Arm.label>install Personal Evasive Robotic Add-On Arm</InstallPERA_Arm.label>
+  <!-- EN: Install an Personal Evasive Robotic Add-On Arm. -->
+  <InstallPERA_Arm.description>Install an Personal Evasive Robotic Add-On Arm.</InstallPERA_Arm.description>
+  <!-- EN: Installing Personal Evasive Robotic Add-On Arm. -->
+  <InstallPERA_Arm.jobString>Installing Personal Evasive Robotic Add-On Arm.</InstallPERA_Arm.jobString>
+  <!-- EN: install Personal Evasive Robotic Add-On Leg -->
+  <InstallPERA_Leg.label>install Personal Evasive Robotic Add-On Leg</InstallPERA_Leg.label>
+  <!-- EN: Install an Personal Evasive Robotic Add-On Leg. -->
+  <InstallPERA_Leg.description>Install an Personal Evasive Robotic Add-On Leg.</InstallPERA_Leg.description>
+  <!-- EN: Installing Personal Evasive Robotic Add-On Leg. -->
+  <InstallPERA_Leg.jobString>Installing Personal Evasive Robotic Add-On Leg.</InstallPERA_Leg.jobString>
+  <!-- EN: remove nanomachine core -->
+  <RemoveNanomachineCore.label>remove nanomachine core</RemoveNanomachineCore.label>
+  <!-- EN: Remove nanomachine core. -->
+  <RemoveNanomachineCore.description>Remove nanomachine core.</RemoveNanomachineCore.description>
+  <!-- EN: Removing nanomachine core. -->
+  <RemoveNanomachineCore.jobString>Removing nanomachine core.</RemoveNanomachineCore.jobString>
+  <!-- EN: remove Personal Evasive Robotic Add-On Arm -->
+  <RemovePERA_Arm.label>remove Personal Evasive Robotic Add-On Arm</RemovePERA_Arm.label>
+  <!-- EN: Remove Personal Evasive Robotic Add-On Arm. -->
+  <RemovePERA_Arm.description>Remove Personal Evasive Robotic Add-On Arm.</RemovePERA_Arm.description>
+  <!-- EN: Removing Personal Evasive Robotic Add-On Arm. -->
+  <RemovePERA_Arm.jobString>Removing Personal Evasive Robotic Add-On Arm.</RemovePERA_Arm.jobString>
+  <!-- EN: remove Personal Evasive Robotic Add-On Leg -->
+  <RemovePERA_Leg.label>remove Personal Evasive Robotic Add-On Leg</RemovePERA_Leg.label>
+  <!-- EN: Remove Personal Evasive Robotic Add-On Leg. -->
+  <RemovePERA_Leg.description>Remove Personal Evasive Robotic Add-On Leg.</RemovePERA_Leg.description>
+  <!-- EN: Removing Personal Evasive Robotic Add-On Leg. -->
+  <RemovePERA_Leg.jobString>Removing Personal Evasive Robotic Add-On Leg.</RemovePERA_Leg.jobString>
+</LanguageData>

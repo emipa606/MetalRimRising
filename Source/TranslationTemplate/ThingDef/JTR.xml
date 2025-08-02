@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Joris The Ripper -->
+  <Joris_The_Ripper.label>Joris The Ripper</Joris_The_Ripper.label>
+  <!-- EN: Possessing incredible superbear strenght, speen and endurance. Joris the Ripper is nigh indestructible due to the parts of his body made entirely out of plasteel and nanites laced muscles. He's often seen with a sword...\nBut not on his. -->
+  <Joris_The_Ripper.description>Possessing incredible superbear strenght, speen and endurance. Joris the Ripper is nigh indestructible due to the parts of his body made entirely out of plasteel and nanites laced muscles. He's often seen with a sword...
+But not on his.</Joris_The_Ripper.description>
+  <!-- EN: bear meat -->
+  <Joris_The_Ripper.race.meatLabel>bear meat</Joris_The_Ripper.race.meatLabel>
+  <!-- EN: left claw -->
+  <Joris_The_Ripper.tools.left_claw-0.label>left claw</Joris_The_Ripper.tools.left_claw-0.label>
+  <!-- EN: claw -->
+  <Joris_The_Ripper.tools.left_claw-0.labelNoLocation>claw</Joris_The_Ripper.tools.left_claw-0.labelNoLocation>
+  <!-- EN: right claw -->
+  <Joris_The_Ripper.tools.right_claw-0.label>right claw</Joris_The_Ripper.tools.right_claw-0.label>
+  <!-- EN: claw -->
+  <Joris_The_Ripper.tools.right_claw-0.labelNoLocation>claw</Joris_The_Ripper.tools.right_claw-0.labelNoLocation>
+  <!-- EN: head -->
+  <Joris_The_Ripper.tools.head-0.label>head</Joris_The_Ripper.tools.head-0.label>
+  <!-- EN: left claw -->
+  <Joris_The_Ripper.tools.left_claw-1.label>left claw</Joris_The_Ripper.tools.left_claw-1.label>
+  <!-- EN: right claw -->
+  <Joris_The_Ripper.tools.right_claw-1.label>right claw</Joris_The_Ripper.tools.right_claw-1.label>
+  <!-- EN: head -->
+  <Joris_The_Ripper.tools.head-1.label>head</Joris_The_Ripper.tools.head-1.label>
+</LanguageData>

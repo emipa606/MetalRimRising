@@ -5,7 +5,7 @@ namespace MGRRimworld.MGRComps;
 
 internal class CompItemAddAbility : CompCauseHediff_Apparel
 {
-    public CompProperties_ItemAddAbility Props => (CompProperties_ItemAddAbility)props;
+    private CompProperties_ItemAddAbility Props => (CompProperties_ItemAddAbility)props;
 
     public override void Notify_Equipped(Pawn pawn)
     {

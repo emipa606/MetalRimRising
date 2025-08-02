@@ -73,7 +73,7 @@ internal class Effect_TrueDamage : Verb_LaunchProjectile
         sourcePawn.Map.flecks.CreateFleck(dataAttachedOverlay);
     }
 
-    public void SearchForTargets(IntVec3 center, float radius, Map map, Pawn pawn)
+    private void SearchForTargets(IntVec3 center, float radius, Map map, Pawn pawn)
     {
         Pawn pawn2 = null;
         var enumerable = GenRadial.RadialCellsAround(center, radius, true);
@@ -109,7 +109,7 @@ internal class Effect_TrueDamage : Verb_LaunchProjectile
         }
     }
 
-    private void DrawBlade(Vector3 center, float magnitude)
+    private static void DrawBlade(Vector3 center, float magnitude)
     {
         var pos = center;
         pos.y = AltitudeLayer.MoteOverhead.AltitudeFor();
@@ -123,7 +123,8 @@ internal class Effect_TrueDamage : Verb_LaunchProjectile
         }
     }
 
-    public void DamageEntities(Pawn instigatorPawn, Pawn victim, BodyPartRecord hitPart, int amt, DamageDef type)
+    private static void DamageEntities(Pawn instigatorPawn, Pawn victim, BodyPartRecord hitPart, int amt,
+        DamageDef type)
     {
         amt = (int)(amt * (double)Rand.Range(1f, 3f));
         var dinfo = new DamageInfo(type, amt, 100f, -1f, instigatorPawn, hitPart);
@@ -138,7 +139,7 @@ internal class Effect_TrueDamage : Verb_LaunchProjectile
         }
     }
 
-    public static int GetWeaponDmg(Pawn pawn)
+    private static int GetWeaponDmg(Pawn pawn)
     {
         var primary = pawn.equipment.Primary;
         var num = primary.GetStatValue(StatDefOf.MeleeWeapon_AverageDPS, false) * 0.7f;

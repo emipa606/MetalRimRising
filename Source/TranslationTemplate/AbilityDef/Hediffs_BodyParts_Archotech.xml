@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Nano\nMachines\nUnleashed -->
+  <NanomachineCoreUnleashed.label>Nano
+Machines
+Unleashed</NanomachineCoreUnleashed.label>
+  <!-- EN: Unleash the full power of the nanomachine core. Draining ALL power from ALL batteries and gaining power equivalent to power absorbed, additionally creates a solar flare event. -->
+  <NanomachineCoreUnleashed.description>Unleash the full power of the nanomachine core. Draining ALL power from ALL batteries and gaining power equivalent to power absorbed, additionally creates a solar flare event.</NanomachineCoreUnleashed.description>
+</LanguageData>

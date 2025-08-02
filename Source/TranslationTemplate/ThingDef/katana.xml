@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Duelist Objectifier -->
+  <MeleeWeapon_MGR_Katana.label>Duelist Objectifier</MeleeWeapon_MGR_Katana.label>
+  <!-- EN: A highly experimental and unstable High-Frequency Blade that excels against armored targes, able to bypass even the toughest of plating after a short charge up time. -->
+  <MeleeWeapon_MGR_Katana.description>A highly experimental and unstable High-Frequency Blade that excels against armored targes, able to bypass even the toughest of plating after a short charge up time.</MeleeWeapon_MGR_Katana.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_MGR_Katana.tools.handle.label>handle</MeleeWeapon_MGR_Katana.tools.handle.label>
+  <!-- EN: point -->
+  <MeleeWeapon_MGR_Katana.tools.point.label>point</MeleeWeapon_MGR_Katana.tools.point.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_MGR_Katana.tools.edge.label>edge</MeleeWeapon_MGR_Katana.tools.edge.label>
+  <!-- EN: Duelist Objectifier (RUSH) -->
+  <MeleeWeapon_MGR_Katana_Jump.label>Duelist Objectifier (RUSH)</MeleeWeapon_MGR_Katana_Jump.label>
+  <!-- EN: A highly experimental and unstable High-Frequency Blade that excels against armored targes, able to bypass even the toughest of plating after a short charge up time.\n\nThis variant comes with a jump ability and counts as a ranged weapon. -->
+  <MeleeWeapon_MGR_Katana_Jump.description>A highly experimental and unstable High-Frequency Blade that excels against armored targes, able to bypass even the toughest of plating after a short charge up time.
+
+This variant comes with a jump ability and counts as a ranged weapon.</MeleeWeapon_MGR_Katana_Jump.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_MGR_Katana_Jump.tools.handle.label>handle</MeleeWeapon_MGR_Katana_Jump.tools.handle.label>
+  <!-- EN: point -->
+  <MeleeWeapon_MGR_Katana_Jump.tools.point.label>point</MeleeWeapon_MGR_Katana_Jump.tools.point.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_MGR_Katana_Jump.tools.edge.label>edge</MeleeWeapon_MGR_Katana_Jump.tools.edge.label>
+  <!-- EN: true damage ability -->
+  <MeleeWeapon_MGR_Katana_Jump.verbs.true_damage_ability.label>true damage ability</MeleeWeapon_MGR_Katana_Jump.verbs.true_damage_ability.label>
+  <!-- EN: Quick-Draw Sheath -->
+  <MGR_Katana_Sheath.label>Quick-Draw Sheath</MGR_Katana_Sheath.label>
+  <!-- EN: Lined with a Synthread and Hyperweave mixture, This specialized sheath is designed to contain the unstable power of the D.O. Able to fire out the blade within at high speed for an ultra-clean cut. -->
+  <MGR_Katana_Sheath.description>Lined with a Synthread and Hyperweave mixture, This specialized sheath is designed to contain the unstable power of the D.O. Able to fire out the blade within at high speed for an ultra-clean cut.</MGR_Katana_Sheath.description>
+  <!-- EN: my ability projectile -->
+  <Projectile_BaseAbility.label>my ability projectile</Projectile_BaseAbility.label>
+  <!-- EN: Projectile for true damage ability. -->
+  <Projectile_BaseAbility.description>Projectile for true damage ability.</Projectile_BaseAbility.description>
+</LanguageData>

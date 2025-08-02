@@ -11,14 +11,14 @@ namespace MGRRimworld;
 [StaticConstructorOnStartup]
 internal class Effect_NanomachineCore : Verb_LaunchProjectile
 {
-    protected readonly string letterLabel = "MGR.NanomachinesUnleashed".Translate();
+    private readonly string letterLabel = "MGR.NanomachinesUnleashed".Translate();
 
-    protected readonly string letterText = "MGR.NanomachinesUnleashedText".Translate();
+    private readonly string letterText = "MGR.NanomachinesUnleashedText".Translate();
 
-    protected readonly string letterTitle = "MGR.NanomachinesUnleashed".Translate();
+    private readonly string letterTitle = "MGR.NanomachinesUnleashed".Translate();
     private Pawn casterPawn;
 
-    protected ChoiceLetter letter;
+    private ChoiceLetter letter;
 
     private Map map;
 
@@ -44,7 +44,7 @@ internal class Effect_NanomachineCore : Verb_LaunchProjectile
         }
 
         var power = Unleash();
-        CastingEffect(power, casterPawn.Position, map, casterPawn);
+        castingEffect(power, casterPawn.Position, map, casterPawn);
         return true;
     }
 
@@ -101,7 +101,7 @@ internal class Effect_NanomachineCore : Verb_LaunchProjectile
         return totalEnergy;
     }
 
-    public void CastingEffect(float power, IntVec3 center, Map map, Pawn pawn)
+    private static void castingEffect(float power, IntVec3 center, Map map, Pawn pawn)
     {
         var num = (int)Math.Min(Math.Max(power, 0f), 54f);
         var val = 0f;
@@ -122,7 +122,7 @@ internal class Effect_NanomachineCore : Verb_LaunchProjectile
             float num3 = 3 + num2;
             var flame = DamageDefOf.Flame;
             GenExplosion.DoExplosion(intVec, map, num3, flame, pawn, 5, 35f, null, null, null, null,
-                ThingDefOf.Filth_Ash, 1f, 1, GasType.BlindSmoke, false, null, 0f, 1, 0f, false, null, list);
+                ThingDefOf.Filth_Ash, 1f, 1, GasType.BlindSmoke, null, 0, false, null, 0f, 1, 0f, false, null, list);
         }
     }
 

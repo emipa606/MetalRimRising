@@ -6,7 +6,7 @@ namespace MGRRimworld.MGRHediffs;
 
 internal class Hediff_NanomachinePower : HediffWithComps
 {
-    public override HediffStage CurStage => new HediffStage
+    public override HediffStage CurStage => new()
     {
         capMods =
         [

@@ -43,7 +43,7 @@ internal class MGR_ExoFrame : Apparel
 
     public float Energy => energy;
 
-    public ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
+    private ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
 
     private bool ShouldDisplay
     {
@@ -94,7 +94,7 @@ internal class MGR_ExoFrame : Apparel
         return EnergyMax * ApparelScorePerEnergyMax;
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Wearer == null)
@@ -160,7 +160,7 @@ internal class MGR_ExoFrame : Apparel
         damageInfo.Instigator.TakeDamage(dinfo);
     }
 
-    public void KeepDisplaying()
+    private void KeepDisplaying()
     {
         lastKeepDisplayTick = Find.TickManager.TicksGame;
     }

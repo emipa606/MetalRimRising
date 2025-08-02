@@ -3,5 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "SocialImageSet": true,
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 28819,
+  "LinesOfXML": 54998,
+  "CodeBaseSize": 78,
+  "LastXmlCleaning": "2025-08-02T23:13:16.4466715+02:00",
+  "SearchTags": " metal gear rising"
 }

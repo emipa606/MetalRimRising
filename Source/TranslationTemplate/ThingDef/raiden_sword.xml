@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Maverick Blade -->
+  <MGR_RaidenSword.label>Maverick Blade</MGR_RaidenSword.label>
+  <!-- EN: A standard-issue High-Frequency Blade that is intended for security personnel. Designed for speed without sacrificing power, the blade enhances the wielder's move speed with providing excellent damage. -->
+  <MGR_RaidenSword.description>A standard-issue High-Frequency Blade that is intended for security personnel. Designed for speed without sacrificing power, the blade enhances the wielder's move speed with providing excellent damage.</MGR_RaidenSword.description>
+  <!-- EN: handle -->
+  <MGR_RaidenSword.tools.handle.label>handle</MGR_RaidenSword.tools.handle.label>
+  <!-- EN: point -->
+  <MGR_RaidenSword.tools.point.label>point</MGR_RaidenSword.tools.point.label>
+  <!-- EN: edge -->
+  <MGR_RaidenSword.tools.edge.label>edge</MGR_RaidenSword.tools.edge.label>
+</LanguageData>

@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 244179928
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea7a663511eb842c157435fcf8827c5d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ea7a663511eb842c157435fcf8827c5d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Pawn/Animal/Bear/JTR_north.png
+- Assets/Data/Mlie.MetalRimRising/Textures/UI/explosion.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Apparel/Exoframe/MGR_ExoFrame_east.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Item/Bionic/Nanomachines.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Item/Bionic/Unfinished/Bionic_Unfinished.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Pawn/Animal/Bear/JTR_south.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Pawn/Animal/Bear/JTR_east.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Motes/BloodSquirt.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Pawn/Animal/Bear/JTR.png
+- Assets/Data/Mlie.MetalRimRising/Textures/UI/sword-slice.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Motes/electric-explosion.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Motes/CrossStrike.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Item/Bionic/BodyPart.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Apparel/Exoframe/MGR_ExoFrame.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Apparel/Exoframe/MGR_ExoFrame_north.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Item/Equipment/WeaponMelee/raiden-sword.png
+- Assets/Data/Mlie.MetalRimRising/Textures/UI/BloodMist.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Item/Equipment/WeaponMelee/mgr-katana-sheath.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Item/Equipment/WeaponMelee/mgr-katana.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Item/Bionic/Unfinished/Nanomachines_Unfinished.png
+- Assets/Data/Mlie.MetalRimRising/Textures/Things/Apparel/Exoframe/MGR_ExoFrame_south.png
+Dependencies: []

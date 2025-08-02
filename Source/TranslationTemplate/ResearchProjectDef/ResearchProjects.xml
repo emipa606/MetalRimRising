@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Big Steel -->
+  <BigSteel.label>Big Steel</BigSteel.label>
+  <!-- EN: Research of very powerful metal crafting. -->
+  <BigSteel.description>Research of very powerful metal crafting.</BigSteel.description>
+  <!-- EN: Cyborg Ninja -->
+  <CyborgNinja.label>Cyborg Ninja</CyborgNinja.label>
+  <!-- EN: Research of very powerful bionics. -->
+  <CyborgNinja.description>Research of very powerful bionics.</CyborgNinja.description>
+</LanguageData>
