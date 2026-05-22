@@ -12,22 +12,22 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of crazedmonkey231s mod https://steamcommunity.com/sharedfiles/filedetails/?id=2802023013
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
-    [tr][td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/MetalRimRising][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/MetalRimRising][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
-[img]https://i.imgur.com/p3CnpiB.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
+[img]https://img.litet.net/p3CnpiB.png[/img]
 Metal Rim Rising is a mod created by the [b]aRatoCat[/b] team to add a bit more "memes" to Rimworld. After all... Memes are the DNA of the soul. 
 
 Focus primarily on armor penetration, most weapons added to this mod have high armor penetration value but often low damage or low speed. Bionics and equipment are more specialized, allowing for more interesting abilities that aren't simply a number increase. Although some are simply there to make your pawn feels f-cking invincible. 
@@ -39,43 +39,43 @@ Focus primarily on armor penetration, most weapons added to this mod have high a
 D.E.S Exo suit not detonating in some unusual cases
 Vanilla Shield Belt sometime detonating in unusual cases. 
 
-[img]https://i.imgur.com/QeAYIcB.png[/img]
+[img]https://img.litet.net/QeAYIcB.png[/img]
 
-[img]https://i.imgur.com/CCGu53f.png[/img]
+[img]https://img.litet.net/CCGu53f.png[/img]
 
-[img]https://i.imgur.com/IOmrlWa.png[/img]
+[img]https://img.litet.net/IOmrlWa.png[/img]
 
-[img]https://i.imgur.com/PBJPWix.png[/img]
+[img]https://img.litet.net/PBJPWix.png[/img]
 
-[img]https://i.imgur.com/94z2nSu.png[/img]
+[img]https://img.litet.net/94z2nSu.png[/img]
 
-[img]https://i.imgur.com/gibi9xE.png[/img]
+[img]https://img.litet.net/gibi9xE.png[/img]
 
-[img]https://i.imgur.com/ulfcASI.png[/img]
+[img]https://img.litet.net/ulfcASI.png[/img]
 
 Sundowner's Bloodlust(s)
 Mistral's [UNKNOWN]
 Blade Wolf's [UNKNOWN]
 Grunt's HF Hatchet
 
-[img]https://i.imgur.com/AJkLOIN.png[/img]
+[img]https://img.litet.net/AJkLOIN.png[/img]
 Everything [i]should[/i] work for now. Contact us with your Hugslib logs and screenshots!
 
 [b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2804403305]Callout Add-On by Holgast![/url][/b]
 
 Not compatible with "Combat Extended".
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3296073915][img]https://img.shields.io/github/v/release/emipa606/MetalRimRising?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  metal gear rising</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3296073915][img]https://img.shields.io/github/v/release/emipa606/MetalRimRising?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: metal gear rising</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>

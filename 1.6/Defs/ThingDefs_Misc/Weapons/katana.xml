@@ -243,7 +243,7 @@
     </statBases>
     <equippedStatOffsets>
       <MeleeHitChance>5.0</MeleeHitChance>
-      <MeleeWeapon_CooldownMultiplier>-0.8</MeleeWeapon_CooldownMultiplier>
+      <MeleeCooldownFactor>-0.8</MeleeCooldownFactor>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelUtility</li>

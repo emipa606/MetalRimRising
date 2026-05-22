@@ -1,38 +1,54 @@
-# Metal Rim Rising (Continued) - Copilot Instructions
+# GitHub Copilot Instructions for Metal Rim Rising (Continued)
+
+Welcome to the Metal Rim Rising (Continued) mod project! This file provides instructions and guidelines to help Copilot users contribute effectively. 
 
 ## Mod Overview and Purpose
-**Metal Rim Rising (Continued)** is a mod designed to enhance the RimWorld experience by integrating elements of "memes" from the game Metal Gear Rising: Revengeance. Developed by the aRatoCat team, this mod focuses on introducing high armor penetration weapons and specialized bionics with unconventional abilities that go beyond basic stat increases. Although some features can make pawns exceptionally resilient, they aim to offer unique gameplay mechanics rather than just power-boosting.
+
+Metal Rim Rising is a mod inspired by Metal Gear Rising: Revengeance, developed by the aRatoCat team. It enhances RimWorld with new weapons, bionics, and equipment focused primarily on armor penetration. The mod aims to introduce unique abilities rather than simple stat increases, thus adding a "meme" and thematic element to the game. 
 
 ## Key Features and Systems
-- **Weapons with High Armor Penetration**: Many new weapons have excellent armor penetration but are balanced with low damage or speed.
-- **Specialized Bionics and Equipment**: Introduces bionics that offer interesting abilities designed to enhance gameplay variety. Some items deliberately create formidable pawns for thematic consistency with Metal Gear Rising: Revengeance.
-- **Custom Apparel and Equipment**: Exo frames that offer unique properties and interactions.
-- **Unconventional Abilities**: Items and bionics introduce abilities that extend beyond typical damage increases, focusing on creative utility and interaction in the game world.
+
+- **High Armor Penetration Weapons**: Most weapons have a high armor penetration value while balancing with lower damage or slower speed.
+- **Specialized Bionics and Equipment**: Provides unique abilities, including bionics that can make a pawn extremely resilient.
+- **Known Issues**: Some functionality like the D.E.S Exo suit and Vanilla Shield Belt may not work as intended in specific cases.
 
 ## Coding Patterns and Conventions
-- **Class Implementation**: Each game object (weapon, apparel) and ability is encapsulated within classes such as `MGR_ExoFrame`, `Effect_NanomachineCore`, and `HediffCompAdjustPower`.
-- **Method Structures**: Core methods include effect application (e.g., `AbsorbedDamage`, `CastingEffect`) and game logic operations (e.g., `Reset`, `Break`).
-- **Naming Conventions**: Classes and methods adopt a consistent prefix (`MGR_`, `Effect_`, `Hediff_`) to categorize and streamline code organization.
+
+- Classes are declared as internal unless they need to be accessed publicly (__e.g.,__ `public class MGRKatana`).
+- Methods tend to be private if used only within their defining class.
+- Standard C# naming conventions are used: PascalCase for classes and methods.
 
 ## XML Integration
-XML files are used extensively for configuration and balancing. These files define weapon stats, bionic attributes, and trait interactions. As noted, players are encouraged to customize XML configurations for personal game balance preferences.
+
+XML files are used extensively for defining items, weapons, and their properties. You can easily modify attributes such as bionic power levels:
+
+- Example XML path: `Defs/Items/YourItem.xml`
+- Be cautious when editing XML files, as incorrect values may lead to imbalanced gameplay or errors.
 
 ## Harmony Patching
-The mod utilizes Harmony for patching core game mechanics to introduce new features and adjust existing content. Harmony allows for non-intrusive modifications, ensuring compatibility with future game updates and reducing conflicts with other mods. 
+
+Harmony is used for patching methods to modify base game behavior:
+
+- Aim to patch methods judiciously to minimize conflicts with other mods.
+- Follow the pattern of prefix, postfix, and transpiler methods, only altering features that need modification.
 
 ## Suggestions for Copilot
-- **Automation of XML Updates**: Leverage Copilot to generate template XML snippets for new weapons or bionics, ensuring correct schema adherence.
-- **Code Refactoring**: Suggest simplifications or optimizations in existing methods, especially in complex logic operations like `DamageEntities` and `SearchForTargets`.
-- **Pattern Recognition**: Detect common class patterns and offer auto-completions for recurring code structures (e.g., patches, effect triggers).
-- **Error Handling**: Propose error and exception handling practices, especially relevant to known issues like exo-suit detonations.
 
-## Known Issues
-The mod has some known issues, such as the D.E.S Exo suit sometimes not detonating and interaction conflicts with the Vanilla Shield Belt. These issues require careful debugging, possibly through additional logging and testing with Harmony patches. Code comments and logging improvements can aid in this troubleshooting process.
+When using GitHub Copilot to assist with this project, consider the following suggestions:
 
-## Compatibility
-This mod is not compatible with "Combat Extended," a popular RimWorld mod known for its comprehensive combat overhaul.
+- **Code Readability**: Suggest enhancing comments for complex code blocks to improve clarity.
+- **Maintainability**: Encourage modular design, where new features or patches do not disrupt existing functionality.
+- **Error Handling**: Include thorough logging in patches or methods, especially where known issues exist.
+- **XML Editing Aid**: Provide auto-complete suggestions for XML tags commonly used in this mod, such as `<WeaponDef>` or `<BionicDef>`.
 
-## Feedback and Contact
-For any bugs or queries, users are encouraged to provide feedback through Hugslib logs and screenshots to assist in improving the mod's performance and compatibility. 
+For effective debugging and contributions, make sure to use the HugsLib logs and contact the team through the Discord channel for support.
 
-Developers can use these instructions to create new features, maintain consistency, and refine existing codebases while leveraging GitHub Copilot for efficient development.
+Happy modding, and enjoy contributing to Metal Rim Rising!
+
+## Project Solution Guidelines
+- Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
+- Use these in-solution XML files as the primary files for reference and modification.
+- The `.github/copilot-instructions.md` file is included in the solution under the `.github` solution folder, so it should be read/modified from within the solution instead of using paths outside the solution. Update this file once only, as it and the parent-path solution reference point to the same file in this workspace.
+- When making functional changes in this mod, ensure the documented features stay in sync with implementation; use the in-solution `.github` copy as the primary file.
+- In the solution is also a project called Assembly-CSharp, containing a read-only version of the decompiled game source, for reference and debugging purposes.
+- For any new documentation, update this copilot-instructions.md file rather than creating separate documentation files.
