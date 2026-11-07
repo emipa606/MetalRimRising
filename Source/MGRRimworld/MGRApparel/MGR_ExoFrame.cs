@@ -25,11 +25,11 @@ internal class MGR_ExoFrame : Apparel
     private readonly float EnergyOnReset = 0.2f;
 
     private readonly int StartingTicksToReset = 500;
+
+    private int KeepDisplayingTicks = 1000;
     private float energy;
 
     private Vector3 impactAngleVect;
-
-    private int KeepDisplayingTicks = 1000;
 
     private int lastAbsorbDamageTick = -9999;
 

@@ -23,7 +23,7 @@ internal class MGR_Gizmo_ExoFrame : Gizmo
         return 140f;
     }
 
-    public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms _params)
+    public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms parms)
     {
         var overRect = new Rect(topLeft.x, topLeft.y, GetWidth(maxWidth), 75f);
         Find.WindowStack.ImmediateWindow(984688, overRect, WindowLayer.GameUI, delegate

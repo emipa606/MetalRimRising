@@ -6,45 +6,45 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="MGRRimworld/MGRRimworld.csproj" />
-  <Folder Name="/XML/1.6/Defs/Effects/">
-    <File Path="../1.6/Defs/Effects/Effecter_Misc.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/HediffDefs/BodyParts/">
-    <File Path="../1.6/Defs/HediffDefs/BodyParts/Hediff_NanomachinePower.xml" />
-    <File Path="../1.6/Defs/HediffDefs/BodyParts/Hediffs_BodyParts_Archotech.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/ThingDefs_Misc/">
-    <File Path="../1.6/Defs/ThingDefs_Misc/Apparel_Packs.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/ThingDefs_Races/">
-    <File Path="../1.6/Defs/ThingDefs_Races/JTR.xml" />
-  </Folder>
-  <Folder Name="/XML/1.6/Defs/GraphicDefs/">
-    <File Path="../1.6/Defs/GraphicDefs/MoteDefs.xml" />
-  </Folder>
   <Folder Name="/XML/Languages/English/Keyed/">
     <File Path="../Languages/English/Keyed/Text.xml" />
   </Folder>
   <Folder Name="/XML/About/">
     <File Path="../About/about.xml" />
   </Folder>
-  <Folder Name="/XML/1.6/Defs/ThingDefs_Items/">
-    <File Path="../1.6/Defs/ThingDefs_Items/Items_Unfinished.xml" />
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Races/">
+    <File Path="../1.7/Defs/ThingDefs_Races/JTR.xml" />
   </Folder>
-  <Folder Name="/XML/1.6/Patches/">
-    <File Path="../1.6/Patches/A_Dog_Said_Patch.xml" />
-    <File Path="../1.6/Patches/Persona_Bond_Forge_Patch.xml" />
-    <File Path="../1.6/Patches/Stuffable_Clothes_Patch.xml" />
+  <Folder Name="/XML/1.7/Defs/GraphicDefs/">
+    <File Path="../1.7/Defs/GraphicDefs/MoteDefs.xml" />
   </Folder>
-  <Folder Name="/XML/1.6/Defs/ThingDefs_Misc/Weapons/">
-    <File Path="../1.6/Defs/ThingDefs_Misc/Weapons/katana.xml" />
-    <File Path="../1.6/Defs/ThingDefs_Misc/Weapons/raiden_sword.xml" />
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchTabs.xml" />
   </Folder>
-  <Folder Name="/XML/1.6/Defs/ResearchProjectDefs/">
-    <File Path="../1.6/Defs/ResearchProjectDefs/ResearchProjects.xml" />
-    <File Path="../1.6/Defs/ResearchProjectDefs/ResearchTabs.xml" />
+  <Folder Name="/XML/1.7/Defs/HediffDefs/">
+    <File Path="../1.7/Defs/HediffDefs/Hediff_DO.xml" />
   </Folder>
-  <Folder Name="/XML/1.6/Defs/HediffDefs/">
-    <File Path="../1.6/Defs/HediffDefs/Hediff_DO.xml" />
+  <Folder Name="/XML/1.7/Defs/Effects/">
+    <File Path="../1.7/Defs/Effects/Effecter_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Unfinished.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HediffDefs/BodyParts/">
+    <File Path="../1.7/Defs/HediffDefs/BodyParts/Hediff_NanomachinePower.xml" />
+    <File Path="../1.7/Defs/HediffDefs/BodyParts/Hediffs_BodyParts_Archotech.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Misc/Weapons/">
+    <File Path="../1.7/Defs/ThingDefs_Misc/Weapons/katana.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Misc/Weapons/raiden_sword.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/A_Dog_Said_Patch.xml" />
+    <File Path="../1.7/Patches/Persona_Bond_Forge_Patch.xml" />
+    <File Path="../1.7/Patches/Stuffable_Clothes_Patch.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Misc/">
+    <File Path="../1.7/Defs/ThingDefs_Misc/Apparel_Packs.xml" />
   </Folder>
 </Solution>

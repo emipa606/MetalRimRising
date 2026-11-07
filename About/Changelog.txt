@@ -1,5 +1,8 @@
 # Changelog for MetalRimRising
 
+1.7.0 - Mod updated for 1.7 and passed autotests
+
+
 1.6.1 - Quick Draw's melee attack cooldown should now work correctly
 
 

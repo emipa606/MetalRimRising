@@ -4,7 +4,7 @@ using Verse;
 namespace MGRRimworld.MGRDefOf;
 
 [DefOf]
-internal class MGRDefOf
+internal static class MGRDefOf
 {
     public static AbilityDef NanomachineCoreUnleashed;
 

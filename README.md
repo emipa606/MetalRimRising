@@ -63,4 +63,4 @@ Not compatible with "Combat Extended".
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/MetalRimRising?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3296073915) | tags: metal gear rising
+[![Image](https://img.shields.io/github/v/release/emipa606/MetalRimRising?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3296073915) | metal gear rising
